@@ -1,17 +1,22 @@
-* {
+html {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a3bb3b1a-2726-44ba-b229-0801b9293251/dgoipre-9de453f0-5bc8-4a61-a583-74b8ee510482.png/v1/fill/w_1280,h_768,q_80,strp/pokemon_by_sanshow_dgoipre-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EzYmIzYjFhLTI3MjYtNDRiYS1iMjI5LTA4MDFiOTI5MzI1MVwvZGdvaXByZS05ZGU0NTNmMC01YmM4LTRhNjEtYTU4My03NGI4ZWU1MTA0ODIucG5nIiwiaGVpZ2h0IjoiPD03NjgiLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS53YXRlcm1hcmsiXSwid21rIjp7InBhdGgiOiJcL3dtXC9hM2JiM2IxYS0yNzI2LTQ0YmEtYjIyOS0wODAxYjkyOTMyNTFcL3NhbnNob3ctNC5wbmciLCJvcGFjaXR5Ijo5NSwicHJvcG9ydGlvbnMiOjAuNDUsImdyYXZpdHkiOiJjZW50ZXIifX0.g5i2Qg3evrHz6j91ewM8qEQeUBPW94rHJpkUeGR_O5Q);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #f6f8fc;
 }
 
 .content {
     width: 100vw;
     height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+}
+
+.content h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 3px 4px #000;
 }
 
 @media screen and (min-width: 992px) {
